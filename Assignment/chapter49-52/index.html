@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <!-- TASK 1: -->
+    <h3>Signup Form</h3>
+    <label for="#val1">Username:</label>
+    <input type="text" id="val1"><br><br>
+    <label for="#val2">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="email" id="val2"><br><br>
+    <label for="#val3">Password:</label>
+    <input type="password" id="val3">
+    <button type="submit" onclick="submission();">Submit</button>
+    <h3>Form Data</h3>
+    <div id="dataForm">   
+    </div>
+
+    <!-- TASK 2: -->
+    <h3>Introduction</h3>
+    <p id="para">Akhtar Hussain (BSCS) <a href="javascript:void(0)" onclick="detail();">Read More</a></p>
+
+    <!-- TASK 3: -->
+        <form id="form">
+            <label for="#val1">Name:</label>
+            <input type="text" id="val1"><br><br>
+            <label for="#val2">Class:</label>
+            <input type="text" id="val2"><br><br>
+            <button type="button" onclick="add();">Add</button><br><br><br><br> 
+        </form>
+        <table id="myTable">
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table><br><br><br>
+        <form id="update" class="hide">
+            <label for="#val3">Name:</label>
+            <input type="text" id="val3"><br><br>
+            <label for="#val4">Class:</label>
+            <input type="text" id="val4"><br><br>
+            <button type="button" onclick="edit();">Edit</button><br><br><br><br> 
+        </form>
+</body>
+<!-- Custom js -->
+<script src="app.js"></script>
+</html>

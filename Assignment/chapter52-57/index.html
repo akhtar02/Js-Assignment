@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+            <div>
+                <img id="img1" src="img/1.jpg" alt="" width="200px" height="200px" onclick="image(this.id);">
+            </div>
+            <div>
+                <img id="img2" src="img/2.jpg" alt="" width="200px" height="200px" onclick="image(this.id);">
+            </div>
+            <div>
+                <img id="img3" src="img/3.jpg" alt="" width="200px" height="200px" onclick="image(this.id);">
+            </div>
+            <div>
+                <img id="img4" src="img/5.jpg" alt="" width="200px" height="200px" onclick="image(this.id);">
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <span class="close" id="modal-close" onclick="onClosedImagModal()">&times;</span>
+            <img class="modal-content" id="modal-img">
+        </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
