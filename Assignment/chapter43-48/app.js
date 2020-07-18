@@ -1,7 +1,7 @@
 //--------------Task 1--------------
-function alerting(){
-    alert("Welocome")
-}
+// function alerting(){
+//     alert("Welocome")
+// }
 
 //--------------Task 2--------------
 function msg(){
