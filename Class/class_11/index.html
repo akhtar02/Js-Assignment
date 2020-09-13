@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDYyXEJ5FnzXMT69h3OfPTlppDo6-Vf1ZQ",
+            authDomain: "smit-ed438.firebaseapp.com",
+            databaseURL: "https://smit-ed438.firebaseio.com",
+            projectId: "smit-ed438",
+            storageBucket: "smit-ed438.appspot.com",
+            messagingSenderId: "436649199988",
+            appId: "1:436649199988:web:0d112efa5423b9b6250421"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+
+    <div>
+        <input id="name" type="text" placeholder="name">
+        <br />
+        <input id="roll" type="text" placeholder="roll">
+        <br />
+        <button onclick="saveData()">Save Data</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
