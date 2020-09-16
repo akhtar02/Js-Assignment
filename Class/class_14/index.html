@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social App ! Dunya Ko Bta Do</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+<style>
+    .text{
+      margin-top: 100px;
+      font-size: 40px;
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+    .para{
+      color: grey;
+      line-height: 35px;
+      font-size: 15px;
+    }
+    .btn{
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  </style>
+</style>
+</head>
+<body>
+ <div class="container">
+     <div class="text text-center">
+         <p>Messenger</p>
+     </div>
+     <div class="para text-center">
+         <p>Instantly connect with people in you life. <br/>
+            Sign in with Facebook to get started.
+         </p>
+     </div>
+     <div class="button text-center">
+        <button class="btn btn-primary" onclick="signIn()" type="submit">Continue with <span style="font-size: 19px; font-weight: 700;">Facebook</span></button>
+     </div>
+ </div>   
+
+
+</body>
+<script src="app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyBKGmlxspQdU91MSSbvoBbdRjbInsTgADs",
+      authDomain: "socail-auth-f0306.firebaseapp.com",
+      databaseURL: "https://socail-auth-f0306.firebaseio.com",
+      projectId: "socail-auth-f0306",
+      storageBucket: "socail-auth-f0306.appspot.com",
+      messagingSenderId: "491475896207",
+      appId: "1:491475896207:web:158ee0d814a396e99b6dfa",
+      measurementId: "G-HP7K56MV98"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+   
+  </script>
+</html>
